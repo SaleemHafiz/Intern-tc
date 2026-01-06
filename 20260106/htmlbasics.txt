@@ -1,0 +1,15 @@
+HTML Document A text file that contains the code for a website. It tells the browser what content to show.
+
+The DOCTYPE Declaration A line at the start of the file that tells the browser the page is written in HTML.
+
+HTML Headings Titles or labels for different sections. There are six sizes, from big (H1) to small (H6).
+
+HTML Paragraphs Simple blocks of text used for sentences and stories.
+
+HTML Links Clickable text that sends the user to a new website or a different page.
+
+HTML Images Code that shows a picture on the screen.
+
+How to View HTML Source A way to see the code of any website. You usually right-click on a page and choose View Page Source.
+
+HTML Basics The fundamental rules and tags used to build a simple webpage.
