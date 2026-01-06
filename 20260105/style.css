@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+    display: flex;
+    max-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+  display: flex;
+  padding: 10px 32px;
+  gap: 10px;
+  background-color: darkblue;
+  color: lightblue;
+  align-items: center;
+  height: fit-content;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.menus {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.menus li {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  border: 1px solid lightblue;
+  cursor: pointer;
+}
+
+.menus li:hover {
+  background-color: lightblue;
+  color: darkblue;
+}
+
+main {
+  display: flex;
+  color: darkblue;
+  background-color: lightblue;
+  flex: 1;
+  height: 100vh;
+  align-items: stretch;
+}
+
+aside {
+  min-width: fit-content;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: darkblue;
+  height: 100vh;
+}
+
+aside,
+section {
+  overflow: auto; /* scroll individually */
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.list-item {
+  padding: 10px;
+  color: lightblue;
+  border: 1px solid lightblue;
+}
+
+section {
+    flex: 1;
+    height: 100vh;
+}
