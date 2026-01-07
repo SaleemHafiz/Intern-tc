@@ -89,14 +89,26 @@
           <li>Item 7</li>
           <li>Item 8</li>
         </ol>
+
+        <!--
+         <dl> : Description List – container for term–description pairs
+         <dt> : Description Term – the word or label being defined
+         <dd> : Description Description – the explanation of the term
+         -->
         <dl>
           <dt>HTML</dt>
-          <dd>Markup</dd>
+          <dd>HyperText Markup Language</dd>
+
+          <dt>CSS</dt>
+          <dd>Cascading Style Sheets</dd>
+
+          <dt>JavaScript</dt>
+          <dd>A programming language used to add interactivity to web pages</dd>
         </dl>
       </section>
       <section>
         <img
-          src="img.jpg"
+          src="https://images.pexels.com/photos/28907742/pexels-photo-28907742.jpeg"
           alt="Image"
           width="100"
           height="100"
@@ -104,38 +116,62 @@
         />
         <!-- img -->
         <figure>
-          <img src="img.jpg" alt="Figure" />
+          <img src="https://images.pexels.com/photos/28907742/pexels-photo-28907742.jpeg" alt="Authentic Burmese Noodle Soup with Mint" />
           <figcaption>Caption</figcaption>
         </figure>
         <audio controls muted loop>
-          <source src="audio.mp3" type="audio/mpeg" />
+          <source src="https://mp3naat.com/download/junaid-jamshed/meetha-meetha-pyara-pyara.mp3" type="audio/mpeg" />
         </audio>
         <video controls width="200" poster="poster.jpg">
-          <source src="video.mp4" type="video/mp4" />
+          <source src="https://www.pexels.com/download/video/3273637/" type="video/mp4" />
         </video>
         <track kind="subtitles" srclang="en" label="English" />
       </section>
       <section>
         <table border="1">
           <caption>
-            Table
+            Sample Table with 2 Colgroups
           </caption>
+
+          <!-- First colgroup: first 2 columns -->
           <colgroup>
-            <col span="2" />
+            <col style="background-color: lightblue" />
+            <col style="background-color: lightgreen" />
           </colgroup>
+
+          <!-- Second colgroup: next 2 columns -->
+          <colgroup>
+            <col style="background-color: lightpink" />
+            <col style="background-color: lightyellow" />
+          </colgroup>
+
           <thead>
             <tr>
-              <th scope="col">A</th>
+              <th scope="col">Name</th>
+              <th scope="col">Age</th>
+              <th scope="col">City</th>
+              <th scope="col">Country</th>
             </tr>
           </thead>
+
           <tbody>
             <tr>
-              <td headers="A">Cell</td>
+              <td>Alice</td>
+              <td>25</td>
+              <td>London</td>
+              <td>UK</td>
+            </tr>
+            <tr>
+              <td>Bob</td>
+              <td>30</td>
+              <td>Paris</td>
+              <td>France</td>
             </tr>
           </tbody>
+
           <tfoot>
             <tr>
-              <td>Total</td>
+              <td colspan="4">Total 2 People</td>
             </tr>
           </tfoot>
         </table>
