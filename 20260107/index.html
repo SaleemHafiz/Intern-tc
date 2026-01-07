@@ -1,170 +1,191 @@
-<!DOCTYPE html> <!-- HTML vs XHTML -->
+<!DOCTYPE html>
+<!-- HTML vs XHTML -->
 <html lang="en" dir="ltr">
-   <!-- html, lang, dir -->
-   <head>
-      <!-- HTML Head -->
-      <meta charset="UTF-8">
-      <!-- charset -->
-      <meta name="description" content="All HTML tags usage">
-      <meta name="keywords" content="HTML, W3Schools">
-      <meta name="author" content="Saleem">
-      <meta http-equiv="refresh" content="300">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title title="HTML Page Title">HTML Full Usage</title>
-      <base href="/" target="_self">
-      <!-- base -->
-      <link rel="icon" href="favicon.ico" type="image/x-icon">
-      <!-- favicon -->
-      <link rel="stylesheet" href="style.css" media="screen">
-      <!-- link -->
-      <style type="text/css"> /* style */
-         body { background-color: #f5f5f5; }
-         .box { border: 1px solid black; padding: 10px; }
-      </style>
-      <script defer> /* script */
-         function demo(){ console.log("JS Loaded"); }
-      </script>
-      <noscript>Your browser does not support JavaScript</noscript>
-   </head>
-   <body onload="demo()" class="box" id="bodyId" data-role="main">
-      <header>
-         <!-- semantic -->
-         <h1 draggable="true">Heading 1</h1>
-         <h2 contenteditable="true">Heading 2</h2>
-         <h3 hidden>Hidden Heading</h3>
-      </header>
-      <nav>
-         <!-- nav -->
-         <a href="index.html" target="_blank" rel="noopener">Home</a>
-      </nav>
-      <main>
-         <!-- main -->
-         <section>
-            <!-- section -->
-            <article>
-               <!-- article -->
-               <p title="paragraph">
-                  <b>Bold</b>
-                  <strong>Strong</strong>
-                  <i>Italic</i>
-                  <em>Emphasis</em>
-                  <mark>Mark</mark>
-                  <small>Small</small>
-                  <del>Deleted</del>
-                  <ins>Inserted</ins>
-                  <sub>Sub</sub>
-                  <sup>Sup</sup>
-                  <abbr title="HyperText Markup Language">HTML</abbr>
-                  <cite>Citation</cite>
-                  <q>Quotation</q>
-               </p>
-               <blockquote cite="https://example.com">Blockquote</blockquote>
-               <address>Written by Saleem</address>
-               <time datetime="2026-01-06">Today</time>
-            </article>
-         </section>
-         <hr>
-         <!-- hr -->
-         <section>
-            <ul type="square">
-               <!-- list -->
-               <li>Item</li>
-            </ul>
-            <ol start="5" reversed>
-               <li>Ordered</li>
-            </ol>
-            <dl>
-               <dt>HTML</dt>
-               <dd>Markup</dd>
-            </dl>
-         </section>
-         <section>
-            <img src="img.jpg" alt="Image" width="100" height="100" loading="lazy"> <!-- img -->
-            <figure>
-               <img src="img.jpg" alt="Figure">
-               <figcaption>Caption</figcaption>
-            </figure>
-            <audio controls muted loop>
-               <source src="audio.mp3" type="audio/mpeg">
-            </audio>
-            <video controls width="200" poster="poster.jpg">
-               <source src="video.mp4" type="video/mp4">
-            </video>
-            <track kind="subtitles" srclang="en" label="English">
-         </section>
-         <section>
-            <table border="1">
-               <caption>Table</caption>
-               <colgroup>
-                  <col span="2">
-               </colgroup>
-               <thead>
-                  <tr>
-                     <th scope="col">A</th>
-                  </tr>
-               </thead>
-               <tbody>
-                  <tr>
-                     <td headers="A">Cell</td>
-                  </tr>
-               </tbody>
-               <tfoot>
-                  <tr>
-                     <td>Total</td>
-                  </tr>
-               </tfoot>
-            </table>
-         </section>
-         <section>
-            <form action="/submit" method="post" autocomplete="on">
-               <fieldset>
-                  <legend>Form</legend>
-                  <label for="name">Name</label>
-                  <input id="name" name="name" type="text" required placeholder="Enter" autofocus>
-                  <input type="email" multiple>
-                  <input type="password" minlength="6">
-                  <input type="number" min="1" max="10">
-                  <input type="range">
-                  <input type="date">
-                  <input type="color">
-                  <input type="file" accept=".jpg">
-                  <input type="checkbox" checked>
-                  <input type="radio" name="r">
-                  <select>
-                     <optgroup label="Group">
-                        <option selected>One</option>
-                     </optgroup>
-                  </select>
-                  <textarea rows="3" cols="20"></textarea>
-                  <button type="submit">Submit</button>
-                  <output>Result</output>
-                  <progress value="50" max="100"></progress>
-                  <meter value="0.7"></meter>
-               </fieldset>
-            </form>
-         </section>
-         <section>
-            <iframe src="page.html" loading="lazy"></iframe>
-            <embed src="file.pdf" type="application/pdf">
-            <object data="file.svg" type="image/svg+xml"></object>
-         </section>
-         <section>
-            <details open>
-               <summary>More</summary>
-               Hidden content
-            </details>
-            <dialog open>Dialog</dialog>
-         </section>
-         <section>
-            <canvas width="100" height="100"></canvas>
-            <svg width="100" height="100">
-               <circle cx="50" cy="50" r="40"></circle>
-            </svg>
-         </section>
-      </main>
-      <aside>Aside</aside>
-      <footer>
-         <span>&copy; &hearts; 😀</span> <!-- entities, symbols, emoji -->
-      </footer>
-   </body>
+  <!-- html, lang, dir -->
+  <head>
+    <!-- HTML Head -->
+    <meta charset="UTF-8" />
+    <!-- charset -->
+    <meta name="description" content="All HTML tags usage" />
+    <meta name="keywords" content="HTML, W3Schools" />
+    <meta name="author" content="Saleem" />
+    <meta http-equiv="refresh" content="300" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title title="HTML Page Title">HTML Full Usage</title>
+    <base href="/" target="_self" />
+    <!-- base -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- favicon -->
+    <link rel="stylesheet" href="style.css" media="screen" />
+    <!-- link -->
+    <style type="text/css">
+      /* style */
+      body {
+        background-color: #f5f5f5;
+      }
+      .box {
+        border: 1px solid black;
+        padding: 10px;
+      }
+    </style>
+    <script defer>
+      /* script */
+      function demo() {
+        console.log("JS Loaded");
+      }
+    </script>
+    <noscript>Your browser does not support JavaScript</noscript>
+  </head>
+  <body onload="demo()" class="box" id="bodyId" data-role="main">
+    <header>
+      <!-- semantic -->
+      <h1 draggable="true">Heading 1</h1>
+      <h2 contenteditable="true">Heading 2</h2>
+      <h3 hidden>Hidden Heading</h3>
+    </header>
+    <nav>
+      <!-- nav -->
+      <a href="index.html" target="_blank" rel="noopener">Home</a>
+    </nav>
+    <main>
+      <!-- main -->
+      <section>
+        <!-- section -->
+        <article>
+          <!-- article -->
+          <p title="paragraph">
+            <b>Bold</b>
+            <strong>Strong</strong>
+            <i>Italic</i>
+            <em>Emphasis</em>
+            <mark>Mark</mark>
+            <small>Small</small>
+            <del>Deleted</del>
+            <ins>Inserted</ins>
+            <sub>Sub</sub>
+            <sup>Sup</sup>
+            <abbr title="HyperText Markup Language">HTML</abbr>
+            <cite>Citation</cite>
+            <q>Quotation</q>
+          </p>
+          <blockquote cite="https://example.com">Blockquote</blockquote>
+          <address>Written by Saleem</address>
+          <time datetime="2026-01-06">Today</time>
+        </article>
+      </section>
+      <hr />
+      <!-- hr -->
+      <section>
+        <ul type="square">
+          <!-- list -->
+          <li>Item</li>
+        </ul>
+        <ol start="5" reversed>
+          <li>Ordered</li>
+        </ol>
+        <dl>
+          <dt>HTML</dt>
+          <dd>Markup</dd>
+        </dl>
+      </section>
+      <section>
+        <img
+          src="img.jpg"
+          alt="Image"
+          width="100"
+          height="100"
+          loading="lazy"
+        />
+        <!-- img -->
+        <figure>
+          <img src="img.jpg" alt="Figure" />
+          <figcaption>Caption</figcaption>
+        </figure>
+        <audio controls muted loop>
+          <source src="audio.mp3" type="audio/mpeg" />
+        </audio>
+        <video controls width="200" poster="poster.jpg">
+          <source src="video.mp4" type="video/mp4" />
+        </video>
+        <track kind="subtitles" srclang="en" label="English" />
+      </section>
+      <section>
+        <table border="1">
+          <caption>
+            Table
+          </caption>
+          <colgroup>
+            <col span="2" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="col">A</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td headers="A">Cell</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Total</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <section>
+        <form action="/submit" method="post" autocomplete="on">
+          <fieldset>
+            <legend>Form</legend>
+            <label for="name">Name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              required
+              placeholder="Enter"
+              autofocus
+            />
+            <input type="email" multiple />
+            <input type="password" minlength="6" />
+            <input type="number" min="1" max="10" />
+            <input type="range" />
+            <input type="date" />
+            <input type="color" />
+            <input type="file" accept=".jpg" />
+            <input type="checkbox" checked />
+            <input type="radio" name="r" />
+            <select>
+              <optgroup label="Group">
+                <option selected>One</option>
+              </optgroup>
+            </select>
+            <textarea rows="3" cols="20"></textarea>
+            <button type="submit">Submit</button>
+            <output>Result</output>
+            <progress value="50" max="100"></progress>
+            <meter value="0.7"></meter>
+          </fieldset>
+        </form>
+      </section>
+      <section>
+        <iframe src="page.html" loading="lazy"></iframe>
+        <embed src="file.pdf" type="application/pdf" />
+        <object data="file.svg" type="image/svg+xml"></object>
+      </section>
+      <section>
+        <details open>
+          <summary>More</summary>
+          Hidden content
+        </details>
+        <dialog open>Dialog</dialog>
+      </section>
+    </main>
+    <aside>Aside</aside>
+    <footer>
+      <span>&copy; &hearts; 😀</span>
+      <!-- entities, symbols, emoji -->
+    </footer>
+  </body>
 </html>
