@@ -1,0 +1,59 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Common box styling */
+.box {
+  background-color: lightblue;
+  border: 5px solid green;
+  margin: 20px;
+}
+
+/* Padding - Individual sides */
+.padding-individual {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+
+/* Padding shorthand - 4 values */
+.padding-shorthand-4 {
+  padding: 25px 50px 75px 100px;
+}
+
+/* Padding shorthand - 2 values */
+.padding-shorthand-2 {
+  padding: 25px 50px;
+}
+
+/* Width + padding (default content-box) */
+.width-padding {
+  width: 300px;
+  padding: 25px;
+  background-color: powderblue;
+}
+
+/* Box-sizing: border-box */
+.border-box {
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: lightgreen;
+}
+
+/* Full box model example */
+.full-box-model {
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 30px;
+  background-color: #ffd966;
+}
