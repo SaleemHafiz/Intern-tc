@@ -1,87 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>CSS Colors</title>
-
-<style>
-/* ===== CSS COLOR NAMES ===== */
-.color-name {
-  background-color: tomato;
-  color: white;
-  padding: 10px;
-}
-
-/* ===== RGB COLORS ===== */
-.rgb {
-  background-color: rgb(255, 99, 71);
-  color: rgb(255, 255, 255);
-  padding: 10px;
-}
-
-/* ===== RGBA COLORS ===== */
-.rgba {
-  background-color: rgba(255, 99, 71, 0.6);
-  color: black;
-  padding: 10px;
-}
-
-/* ===== HEX COLORS ===== */
-.hex {
-  background-color: #ff6347;
-  color: #ffffff;
-  padding: 10px;
-}
-
-/* ===== HSL COLORS ===== */
-.hsl {
-  background-color: hsl(9, 100%, 64%);
-  color: hsl(0, 0%, 100%);
-  padding: 10px;
-}
-
-/* ===== HSLA COLORS ===== */
-.hsla {
-  background-color: hsla(9, 100%, 64%, 0.6);
-  color: black;
-  padding: 10px;
-}
-
-/* General styling */
-section {
-  margin: 15px 0;
-  font-family: Arial, sans-serif;
-}
-</style>
+  <meta charset="UTF-8">
+  <title>CSS Colors</title>
+  <link rel="stylesheet" href="03_colors.css">
 </head>
-
 <body>
 
-<h1>CSS Colors Demonstration</h1>
+  <h1>CSS Colors</h1>
 
-<section class="color-name">
-  Color Name: tomato
-</section>
+  <!-- CSS Color Names -->
+  <div class="box color-name">
+    Color Name: tomato
+  </div>
 
-<section class="rgb">
-  RGB Color: rgb(255, 99, 71)
-</section>
+  <!-- RGB -->
+  <div class="box rgb">
+    RGB: rgb(255, 99, 71)
+  </div>
 
-<section class="rgba">
-  RGBA Color: rgba(255, 99, 71, 0.6)
-</section>
+  <!-- RGBA -->
+  <div class="box rgba">
+    RGBA: rgba(255, 99, 71, 0.6)
+  </div>
 
-<section class="hex">
-  HEX Color: #ff6347
-</section>
+  <!-- HEX -->
+  <div class="box hex">
+    HEX: #ff6347
+  </div>
 
-<section class="hsl">
-  HSL Color: hsl(9, 100%, 64%)
-</section>
+  <!-- HSL -->
+  <div class="box hsl">
+    HSL: hsl(9, 100%, 64%)
+  </div>
 
-<section class="hsla">
-  HSLA Color: hsla(9, 100%, 64%, 0.6)
-</section>
+  <!-- HSLA -->
+  <div class="box hsla">
+    HSLA: hsla(9, 100%, 64%, 0.6)
+  </div>
 
 </body>
 </html>
