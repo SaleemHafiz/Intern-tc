@@ -1,0 +1,64 @@
+/* Universal selector */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Element selector */
+p {
+    color: red;
+    text-align: center;
+}
+
+/* ID selector */
+#para1 {
+    background-color: #f2f2f2;
+}
+
+/* Class selector */
+.center {
+    text-align: center;
+    color: blue;
+}
+
+/* Element + class selector */
+p.center {
+    border: 1px solid black;
+}
+
+/* Multiple classes */
+.large {
+    font-size: 20px;
+}
+
+/* Grouping selector */
+h1,
+h2,
+p {
+    margin: 10px;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    border: 2px solid green;
+    padding: 5px;
+}
+
+/* Combinator selector (descendant) */
+div p {
+    color: purple;
+}
+
+/* Pseudo-class selector */
+a:hover {
+    color: orange;
+}
+
+/* Pseudo-element selectors */
+.pseudo::first-letter {
+    font-size: 30px;
+    color: green;
+}
+
+.pseudo::after {
+    content: " ✔";
+}

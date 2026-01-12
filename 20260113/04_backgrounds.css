@@ -1,69 +1,69 @@
 /* Page background-color */
 body {
-  background-color: lightblue;
-  font-family: Arial, sans-serif;
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
 }
 
 /* background-color on elements */
 .bg-color {
-  background-color: green;
-  color: white;
-  padding: 15px;
-  margin: 10px;
+    background-color: green;
+    color: white;
+    padding: 15px;
+    margin: 10px;
 }
 
 /* opacity (affects child elements too) */
 .bg-opacity {
-  background-color: green;
-  opacity: 0.3;
-  padding: 15px;
-  margin: 10px;
+    background-color: green;
+    opacity: 0.3;
+    padding: 15px;
+    margin: 10px;
 }
 
 /* RGBA transparency (text unaffected) */
 .bg-rgba {
-  background: rgba(0, 128, 0, 0.3);
-  padding: 15px;
-  margin: 10px;
+    background: rgba(0, 128, 0, 0.3);
+    padding: 15px;
+    margin: 10px;
 }
 
 /* background-image */
 .bg-image {
-  background-image: url("paper.gif");
-  padding: 30px;
-  margin: 10px;
+    background-image: url("paper.gif");
+    padding: 30px;
+    margin: 10px;
 }
 
 /* background-repeat */
 .bg-repeat {
-  background-image: url("gradient_bg.png");
-  background-repeat: repeat-x;
-  padding: 30px;
-  margin: 10px;
+    background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;
+    padding: 30px;
+    margin: 10px;
 }
 
 /* background-position + no-repeat */
 .bg-position {
-  background-image: url("img_tree.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-  padding: 30px;
-  margin: 10px;
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 30px;
+    margin: 10px;
 }
 
 /* background-attachment */
 .bg-attachment {
-  background-image: url("img_tree.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
-  padding: 30px;
-  margin: 10px;
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    padding: 30px;
+    margin: 10px;
 }
 
 /* background shorthand */
 .bg-shorthand {
-  background: #ffffff url("img_tree.png") no-repeat right top;
-  padding: 30px;
-  margin: 10px;
+    background: #ffffff url("img_tree.png") no-repeat right top;
+    padding: 30px;
+    margin: 10px;
 }

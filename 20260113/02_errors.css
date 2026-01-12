@@ -6,18 +6,19 @@
 
 /* Missing semicolon (background-color will not work) */
 .missing-semicolon {
-  color: red
-  background-color: yellow;
+  color: red background-color: yellow;
 }
 
 /* Invalid property name (ignored by browser) */
 .invalid-property {
-  colr: blue;   /* invalid property */
+  colr: blue;
+  /* invalid property */
   font-size: 18px;
 }
 
 /* Invalid value (ignored by browser) */
 .invalid-value {
-  width: -100px; /* invalid value */
+  width: -100px;
+  /* invalid value */
   color: purple;
 }
