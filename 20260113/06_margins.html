@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Margins</title>
+    <link rel="stylesheet" href="06_margins.css">
+</head>
+
+<body>
+
+    <h1>CSS Margins Demo</h1>
+
+    <!-- Margin on all sides -->
+    <p class="all-sides">This element has a margin of 70px on all sides.</p>
+
+    <!-- Individual sides -->
+    <p class="individual">Different margins: top 100px, right 150px, bottom 100px, left 80px</p>
+
+    <!-- Shorthand margin values -->
+    <p class="shorthand-4">Margin shorthand 4 values: 25px 50px 75px 100px</p>
+    <p class="shorthand-3">Margin shorthand 3 values: 25px 50px 75px</p>
+    <p class="shorthand-2">Margin shorthand 2 values: 25px 50px</p>
+    <p class="shorthand-1">Margin shorthand 1 value: 25px</p>
+
+    <!-- Auto value (centered element) -->
+    <div class="margin-auto">This div is horizontally centered using margin: auto</div>
+
+    <!-- Inherit value -->
+    <div class="parent">
+        Parent div with margin-left: 100px
+        <p class="inherit">Child paragraph inherits left margin from parent</p>
+    </div>
+
+    <!-- Demonstrate margin collapse -->
+    <h2>Margin Collapse Example</h2>
+    <h1 class="collapse1">Heading 1: margin-bottom 50px</h1>
+    <h2 class="collapse2">Heading 2: margin-top 20px (collapsed)</h2>
+
+    <p class="collapse3">Paragraph 1: top & bottom margin 30px</p>
+    <p class="collapse4">Paragraph 2: top & bottom margin 30px (collapsed)</p>
+
+</body>
+
+</html>
