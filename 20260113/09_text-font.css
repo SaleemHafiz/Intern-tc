@@ -1,0 +1,72 @@
+/* Base styles */
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Headings */
+.title {
+    text-align: center;
+    color: darkblue;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: darkred;
+    text-align: left;
+}
+
+/* Text alignment & spacing */
+.text-align {
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    word-spacing: 4px;
+}
+
+/* Text decoration & transform */
+.decoration {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: green;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Link */
+.link {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+/* Text shadow */
+.shadow {
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Fonts */
+.font-one {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.font-two {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Font shorthand */
+.font-shorthand {
+    font: italic small-caps bold 16px/30px Georgia, serif;
+}

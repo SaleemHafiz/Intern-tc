@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+/* Basic outline */
+.basic-outline {
+    outline: 10px solid green;
+}
+
+/* Outline width */
+.thin {
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: green;
+}
+
+.medium {
+    outline-style: solid;
+    outline-width: medium;
+    outline-color: green;
+}
+
+.thick {
+    outline-style: solid;
+    outline-width: thick;
+    outline-color: green;
+}
+
+.px {
+    outline-style: solid;
+    outline-width: 8px;
+    outline-color: green;
+}
+
+/* Outline colors */
+.red {
+    outline-style: solid;
+    outline-color: red;
+}
+
+.blue {
+    outline-style: dotted;
+    outline-color: blue;
+}
+
+.green {
+    outline-style: outset;
+    outline-color: green;
+}
+
+.invert {
+    outline-style: solid;
+    outline-color: invert;
+}
+
+/* Outline shorthand */
+.sh1 {
+    outline: dashed;
+}
+
+.sh2 {
+    outline: dotted red;
+}
+
+.sh3 {
+    outline: 7px solid yellow;
+}
+
+.sh4 {
+    outline: thick ridge pink;
+}
+
+/* Rounded outline */
+.round1 {
+    outline: dashed;
+    border-radius: 8px;
+}
+
+.round2 {
+    outline: thick solid green;
+    border-radius: 12px;
+}
+
+/* Outline offset */
+.offset-positive {
+    outline: 3px solid red;
+    outline-offset: 15px;
+    background-color: yellow;
+}
+
+.offset-negative {
+    outline: 3px solid red;
+    outline-offset: -5px;
+    background-color: yellow;
+}
