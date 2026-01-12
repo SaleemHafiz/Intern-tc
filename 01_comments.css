@@ -1,0 +1,23 @@
+/* This is a single-line CSS comment */
+/* Comments are ignored by the browser */
+
+/* Comment before a rule */
+p.example {
+  color: red; /* This comment is inside the rule */
+}
+
+/* You can even “comment out” rules:
+p {
+  color: green;
+}
+*/
+
+p {
+  color: blue;
+}
+
+/*
+This is a multi-line
+CSS comment that spans
+several lines
+*/
