@@ -1,0 +1,65 @@
+/* Basic link styling */
+a {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+/* Link states */
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+/* Link button */
+a.btn:link,
+a.btn:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.btn:hover,
+a.btn:active {
+    background-color: red;
+}
+
+/* Extra examples */
+a.one:hover {
+    color: orange;
+}
+
+a.two:hover {
+    font-size: 150%;
+}
+
+a.three:hover {
+    background-color: lightgreen;
+}
+
+a.four:hover {
+    font-family: monospace;
+}
+
+a.five {
+    text-decoration: none;
+}
+
+a.five:hover {
+    text-decoration: underline;
+}
