@@ -1,0 +1,46 @@
+/* Basic table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+/* Table caption */
+caption {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Borders */
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+/* Padding inside cells */
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+/* Header styling */
+th {
+  background-color: #04AA6D;
+  color: white;
+  height: 60px;
+}
+
+/* Zebra striping */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Responsive table */
+.table-container {
+  overflow-x: auto;
+}

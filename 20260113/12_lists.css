@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* List style types */
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: disc;
+}
+
+ul.c {
+  list-style-type: square;
+}
+
+ol.d {
+  list-style-type: upper-roman;
+}
+
+ol.e {
+  list-style-type: lower-roman;
+}
+
+ol.f {
+  list-style-type: lower-alpha;
+}
+
+ol.g {
+  list-style-type: decimal;
+}
+
+/* List marker position */
+ul.outside {
+  list-style-position: outside;
+}
+
+ul.inside {
+  list-style-position: inside;
+}
+
+/* Remove list markers */
+ul.no-style {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styled lists */
+.styled-ol {
+  background: salmon;
+  padding: 20px;
+}
+
+.styled-ol li {
+  background: mistyrose;
+  color: darkred;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.styled-ul {
+  background: powderblue;
+  padding: 20px;
+}
+
+.styled-ul li {
+  background: mistyrose;
+  color: darkblue;
+  margin: 5px;
+  padding: 5px;
+}
