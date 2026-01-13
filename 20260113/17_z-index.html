@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS z-index Example</title>
+    <link rel="stylesheet" href="17_z-index.css" />
+  </head>
+  <body>
+    <h1>CSS z-index Demo</h1>
+    <p>
+      The boxes below overlap. Their stacking order is controlled using
+      <strong>z-index</strong>.
+    </p>
+
+    <div class="container">
+      <div class="box black">Black Box (z-index: 1)</div>
+      <div class="box gray">Gray Box (z-index: 3)</div>
+      <div class="box green">Green Box (z-index: 2)</div>
+    </div>
+
+    <h2>Image Behind Text Example</h2>
+    <div class="image-area">
+      <h3>This text stays above the image</h3>
+      <img
+        src="https://images.pexels.com/photos/35563195/pexels-photo-35563195.jpeg"
+        alt="Tree Image"
+      />
+    </div>
+  </body>
+</html>

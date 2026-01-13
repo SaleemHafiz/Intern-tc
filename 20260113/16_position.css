@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 2000px;
+}
+
+/* common box style */
+.box {
+  border: 3px solid #4caf50;
+  padding: 15px;
+  margin: 20px 0;
+  width: 250px;
+}
+
+/* static (default) */
+.static {
+  position: static;
+}
+
+/* relative */
+.relative {
+  position: relative;
+  left: 30px;
+}
+
+/* parent for absolute */
+.parent {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid green;
+  margin-top: 30px;
+}
+
+/* absolute */
+.absolute {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: 150px;
+  border: 3px solid red;
+  padding: 10px;
+}
+
+/* fixed */
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: lightblue;
+  padding: 10px;
+  border: 2px solid blue;
+}
+
+/* sticky */
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: lightgreen;
+  padding: 10px;
+  border: 2px solid green;
+  margin-top: 40px;
+}
+
+.space {
+  margin-top: 800px;
+}

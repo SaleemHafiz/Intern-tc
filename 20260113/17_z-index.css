@@ -1,0 +1,65 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Container for overlapping boxes */
+.container {
+  position: relative;
+  height: 200px;
+  margin-top: 30px;
+}
+
+/* Common box styles */
+.box {
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  color: white;
+}
+
+/* Individual boxes with different z-index values */
+.black {
+  position: relative;
+  background-color: black;
+  z-index: 1;
+  margin: 20px;
+}
+
+.gray {
+  position: absolute;
+  background-color: lightgray;
+  color: black;
+  top: 50px;
+  left: 60px;
+  z-index: 3;
+}
+
+.green {
+  position: absolute;
+  background-color: lightgreen;
+  color: black;
+  top: 10px;
+  left: 220px;
+  z-index: 2;
+}
+
+/* Image behind text example */
+.image-area {
+  position: relative;
+  margin-top: 60px;
+  height: 200px;
+}
+
+.image-area img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.image-area h3 {
+  position: relative;
+  z-index: 1;
+}

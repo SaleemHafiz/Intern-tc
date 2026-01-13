@@ -1,0 +1,48 @@
+/* Select elements that have a target attribute */
+a[target] {
+  background-color: yellow;
+}
+
+/* Select elements with target exactly "_blank" */
+a[target="_blank"] {
+  border: 2px solid red;
+}
+
+/* Select elements whose title contains the word "flower" */
+[title~="flower"] {
+  border: 3px solid orange;
+}
+
+/* Select class exactly "top" or starting with "top-" */
+[class|="top"] {
+  background-color: lightblue;
+}
+
+/* Select class values that start with "top" */
+[class^="top"] {
+  color: blue;
+}
+
+/* Select class values that end with "test" */
+[class$="test"] {
+  background-color: pink;
+}
+
+/* Select class values that contain "te" */
+[class*="te"] {
+  border: 2px dashed green;
+}
+
+/* Style text inputs using attribute selector */
+input[type="text"] {
+  width: 160px;
+  padding: 6px;
+  background-color: lavender;
+}
+
+/* Style button inputs using attribute selector */
+input[type="button"] {
+  width: 120px;
+  padding: 6px;
+  background-color: lightgreen;
+}

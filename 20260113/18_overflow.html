@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Overflow Demonstration</title>
+    <link rel="stylesheet" href="18_overflow.css" />
+  </head>
+  <body>
+    <h1>CSS Overflow Property</h1>
+    <p class="intro">
+      These examples show how CSS controls content that exceeds its container
+      size. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit qui,
+      rem commodi quas neque ab repellat minima nemo aspernatur pariatur! Rem,
+      itaque quis! Eveniet saepe doloribus aliquid voluptas vel deleniti.
+    </p>
+
+    <section>
+      <h2>overflow: visible (default)</h2>
+      <div class="box visible">
+        This content is larger than the box. Because overflow is set to visible,
+        it spills outside the container instead of being clipped. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Quidem odio sequi
+        repudiandae, ea repellendus itaque expedita aspernatur, modi in, odit
+        sunt voluptatem magnam temporibus quae! Ipsa commodi nulla sint alias?
+      </div>
+    </section>
+
+    <section>
+      <h2>overflow: hidden</h2>
+      <div class="box hidden">
+        This content exceeds the container, but anything outside the defined
+        width and height is hidden from view. Lorem ipsum, dolor sit amet
+        consectetur adipisicing elit. Accusantium exercitationem deleniti
+        aspernatur consectetur repellendus commodi eligendi velit aliquid,
+        dignissimos eos natus, assumenda voluptates, esse nihil ducimus totam!
+        Velit, tempora voluptatibus.
+      </div>
+    </section>
+
+    <section>
+      <h2>overflow: scroll</h2>
+      <div class="box scroll">
+        Scrollbars are always visible here, even if the content does not fully
+        require them. The user must scroll to read everything. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Tempore qui odit temporibus
+        cupiditate corporis ducimus consequuntur, id ea fugit nam provident
+        dolores error quas quos nisi aut quod perferendis ipsa.
+      </div>
+    </section>
+
+    <section>
+      <h2>overflow: auto</h2>
+      <div class="box auto">
+        Scrollbars appear only when needed. If the content fits, no scrollbars
+        are shown. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      </div>
+    </section>
+
+    <section>
+      <h2>overflow-x & overflow-y</h2>
+      <div class="box axis">
+        This box hides horizontal overflow but allows vertical scrolling. The
+        text is intentionally long to force vertical overflow while preventing
+        sideways scrolling. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Architecto eos alias amet exercitationem officia eligendi
+        perspiciatis ad soluta, rem nisi itaque corrupti quasi ut quo!
+        Necessitatibus molestiae laudantium nisi esse.
+      </div>
+    </section>
+  </body>
+</html>

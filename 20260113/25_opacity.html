@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Opacity Demo</title>
+    <link rel="stylesheet" href="25_opacity.css" />
+  </head>
+  <body>
+    <h1>CSS Opacity</h1>
+    <p class="intro">
+      Opacity controls the transparency of elements. Values range from 0
+      (transparent) to 1 (opaque).
+    </p>
+
+    <!-- 1. Image opacity -->
+    <section>
+      <h2>Image Opacity</h2>
+      <img
+        src="https://images.pexels.com/photos/167698/pexels-photo-167698.jpeg?text=Forest+0.2"
+        alt="Forest 0.2"
+        class="opacity-02"
+      />
+      <img
+        src="https://images.pexels.com/photos/167698/pexels-photo-167698.jpeg?text=Forest+0.5"
+        alt="Forest 0.5"
+        class="opacity-05"
+      />
+      <img
+        src="https://images.pexels.com/photos/167698/pexels-photo-167698.jpeg?text=Forest+1.0"
+        alt="Forest 1.0"
+        class="opacity-10"
+      />
+    </section>
+
+    <!-- 2. Hover opacity -->
+    <section>
+      <h2>Opacity with Hover</h2>
+      <img
+        src="https://images.pexels.com/photos/167698/pexels-photo-167698.jpeg?text=Hover+Effect"
+        alt="Hover Effect"
+        class="hover-opacity"
+      />
+    </section>
+
+    <!-- 3. Transparent Boxes (element opacity) -->
+    <section>
+      <h2>Transparent Boxes (Element Opacity)</h2>
+      <div class="box opacity-box">
+        <p>All content, including text, inherits opacity 0.5.</p>
+      </div>
+    </section>
+
+    <!-- 4. Background-color transparency (RGBA) -->
+    <section>
+      <h2>Background-color transparency (RGBA)</h2>
+      <div class="box rgba-box">
+        <p>The box background is transparent, but text remains fully opaque.</p>
+      </div>
+    </section>
+  </body>
+</html>

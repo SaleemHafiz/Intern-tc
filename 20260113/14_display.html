@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>14 - CSS Display Property</title>
+    <link rel="stylesheet" href="14_display.css" />
+  </head>
+  <body>
+    <h1>CSS Display Property</h1>
+
+    <h2>Block vs Inline</h2>
+    <div class="block-box">I am a block element (div)</div>
+    <span class="inline-box">Inline span</span>
+    <span class="inline-box">Another inline span</span>
+
+    <h2>Inline Block</h2>
+    <div class="inline-block-box">Inline-block 1</div>
+    <div class="inline-block-box">Inline-block 2</div>
+
+    <h2>Display None</h2>
+    <button onclick="toggleBox()">Toggle Box</button>
+    <div id="hiddenBox">You can hide and show me</div>
+
+    <h2>Flex and Grid</h2>
+    <div class="flex-container">
+      <div>Flex 1</div>
+      <div>Flex 2</div>
+      <div>Flex 3</div>
+    </div>
+
+    <div class="grid-container">
+      <div>Grid 1</div>
+      <div>Grid 2</div>
+      <div>Grid 3</div>
+    </div>
+
+    <h2>Visibility Hidden</h2>
+    <p class="hidden-text">I am invisible but still take space</p>
+
+    <script>
+      function toggleBox() {
+        const box = document.getElementById("hiddenBox");
+        box.style.display = box.style.display === "none" ? "block" : "none";
+      }
+    </script>
+  </body>
+</html>

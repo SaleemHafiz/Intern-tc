@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Pseudo-elements Demo</title>
+    <link rel="stylesheet" href="24_pseudo-elements.css" />
+  </head>
+  <body>
+    <h1>CSS Pseudo-elements</h1>
+    <p class="intro">
+      Pseudo-elements allow styling specific parts of elements or inserting
+      content dynamically.
+    </p>
+
+    <!-- 1. First-line -->
+    <section>
+      <h2>::first-line</h2>
+      <p class="first-line-demo">
+        This paragraph demonstrates the
+        <code>::first-line</code> pseudo-element. Only the first line of text
+        will have a different style, regardless of paragraph length.
+      </p>
+    </section>
+
+    <!-- 2. First-letter -->
+    <section>
+      <h2>::first-letter</h2>
+      <p class="first-letter-demo">
+        The first letter of this paragraph is styled differently using the
+        <code>::first-letter</code> pseudo-element.
+      </p>
+    </section>
+
+    <!-- 3. Before and After -->
+    <section>
+      <h2>::before and ::after</h2>
+      <h3 class="before-demo">Heading with Before</h3>
+      <h3 class="after-demo">Heading with After</h3>
+    </section>
+
+    <!-- 4. Marker -->
+    <section>
+      <h2>::marker</h2>
+      <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+      </ul>
+    </section>
+
+    <!-- 5. Selection -->
+    <section>
+      <h2>::selection</h2>
+      <p class="selection-demo">
+        Try selecting this text to see the custom selection style applied.
+      </p>
+    </section>
+
+    <!-- 6. Backdrop -->
+    <section>
+      <h2>::backdrop</h2>
+      <dialog open>
+        This is a dialog box. Its backdrop is styled using the
+        <code>::backdrop</code> pseudo-element.
+      </dialog>
+    </section>
+
+    <!-- 7. Combined Pseudo-elements -->
+    <section>
+      <h2>Combined Pseudo-elements</h2>
+      <p class="combined">
+        The first letter is large and red, the first line is small-caps and
+        blue, the rest of the text is normal.
+      </p>
+    </section>
+  </body>
+</html>

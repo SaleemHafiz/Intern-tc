@@ -1,0 +1,104 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* 1. Center Block */
+.block-center {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  border: 3px solid green;
+  background-color: #d9f0d3;
+  text-align: center;
+}
+
+/* 2. Center Text */
+.text-center {
+  text-align: center;
+  border: 2px solid #118ab2;
+  padding: 10px;
+  width: 70%;
+  margin: 10px auto;
+}
+
+/* 3. Center Image */
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 2px solid #ef476f;
+}
+
+/* 4. Flexbox Centering */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  border: 3px solid #06d6a0;
+  background-color: #d0f4de;
+}
+
+/* 5. Grid Centering */
+.grid-center {
+  display: grid;
+  place-items: center;
+  height: 150px;
+  border: 3px solid #ffd166;
+  background-color: #fff3bf;
+}
+
+/* 6. Absolute Position Right */
+.relative-container {
+  position: relative;
+  height: 120px;
+  border: 2px solid #333;
+  margin-bottom: 20px;
+}
+
+.abs-right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #06d6a0;
+  padding: 10px;
+  background-color: #f0f8ff;
+}
+
+/* 7. Float Right */
+.float-right {
+  float: right;
+  width: 300px;
+  border: 3px solid #ef476f;
+  padding: 10px;
+  background-color: #ffd6d6;
+  margin-bottom: 60px; /* for clearing float */
+}
+
+/* 8. Center with transform */
+.transform-container {
+  position: relative;
+  height: 150px;
+  border: 2px solid #333;
+  background-color: #e0e0e0;
+}
+
+.transform-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #118ab2;
+  padding: 10px 20px;
+  background-color: #fff;
+  text-align: center;
+}

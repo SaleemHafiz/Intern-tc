@@ -1,0 +1,70 @@
+/* Container for navigation items */
+#navlist {
+  position: relative;
+  height: 44px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* All list items */
+#navlist li {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+/* All links inside li */
+#navlist li a {
+  display: block;
+  height: 44px;
+  width: 46px;
+  text-indent: -9999px;
+  background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/icon.png");
+  background-repeat: no-repeat;
+}
+
+/* Home button position and size */
+#home {
+  left: 0;
+  width: 46px;
+}
+#home a {
+  background-position: 0 0;
+}
+
+/* Previous button position and size */
+#prev {
+  left: 60px;
+  width: 43px;
+}
+#prev a {
+  background-position: -47px 0;
+}
+
+/* Next button position and size */
+#next {
+  left: 120px;
+  width: 43px;
+}
+#next a {
+  background-position: -91px 0;
+}
+
+/* Hover effect for Home */
+#home a:hover {
+  background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/icon.png");
+  background-position: 0 -45px;
+}
+
+/* Hover effect for Previous */
+#prev a:hover {
+  background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/icon.png");
+  background-position: -47px -45px;
+}
+
+/* Hover effect for Next */
+#next a:hover {
+  background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/icon.png");
+  background-position: -91px -45px;
+}

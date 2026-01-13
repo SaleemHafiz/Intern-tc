@@ -1,0 +1,75 @@
+/* Basic form layout */
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Style labels */
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+/* Style all text inputs */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Focus effect on inputs */
+input[type=text]:focus,
+input[type=password]:focus {
+  border: 2px solid #555;
+  background-color: #e6f2ff;
+  outline: none;
+}
+
+/* Style textarea */
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+/* Style dropdown */
+select {
+  width: 100%;
+  padding: 14px;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border: none;
+}
+
+/* Style buttons */
+input[type=submit],
+input[type=reset] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 4px 0 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for buttons */
+input[type=submit]:hover,
+input[type=reset]:hover {
+  background-color: #039e63;
+}
+
+/* Responsive form layout */
+@media screen and (max-width: 600px) {
+  form {
+    width: 100%;
+  }
+}

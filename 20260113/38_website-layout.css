@@ -1,0 +1,72 @@
+/* Style header section */
+header {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Style navigation bar */
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+
+/* Style links inside nav */
+ul.topnav li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Hover effect for nav links */
+ul.topnav li a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+/* Flex container for columns */
+div.flex-container {
+  display: flex; /* Show columns horizontally */
+  flex-direction: row;
+  margin: 10px;
+}
+
+/* Individual columns */
+div.flex-container > div {
+  margin: 10px;
+  flex: 1; /* Make columns equal width */
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Responsive layout: stack columns vertically if screen < 600px */
+@media screen and (max-width: 600px) {
+  div.flex-container {
+    flex-direction: column;
+  }
+}
+
+/* Basic footer styling */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 8px;
+}
+
+/* Fixed footer example */
+/*
+footer {
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+  width: 100%; 
+  background-color: #f1f1f1; 
+  padding: 8px; 
+  text-align: center; 
+  z-index: 1000;
+}
+*/

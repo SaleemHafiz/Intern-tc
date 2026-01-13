@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Dropdowns Demo</title>
+    <link rel="stylesheet" href="27_dropdowns.css" />
+  </head>
+  <body>
+    <h1>CSS Dropdowns Examples</h1>
+
+    <!-- 1. Simple Text Dropdown -->
+    <section>
+      <h2>Simple Text Dropdown</h2>
+      <div class="dropdown">
+        Hover me!
+        <div class="dropdown-content">
+          <p>Hello World!</p>
+          <p>CSS Dropdown Example</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Dropdown Button -->
+    <section>
+      <h2>Dropdown Button</h2>
+      <div class="dropdown">
+        <button class="dropbtn">Dropdown Menu</button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Right-aligned Dropdown -->
+    <section>
+      <h2>Right-Aligned Dropdown</h2>
+      <div class="dropdown right">
+        <button class="dropbtn">Right Menu</button>
+        <div class="dropdown-content">
+          <a href="#">Option A</a>
+          <a href="#">Option B</a>
+          <a href="#">Option C</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Dropdown with Image -->
+    <section>
+      <h2>Dropdown with Image</h2>
+      <div class="dropdown">
+        <button class="dropbtn">Image Menu</button>
+        <div class="dropdown-content">
+          <img src="https://source.unsplash.com/150x100/?nature" alt="Nature" />
+          <p>Beautiful Nature</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Dropdown in Navigation Bar -->
+    <section>
+      <h2>Navbar Dropdown</h2>
+      <ul class="nav-dropdown">
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Services ▼</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">SEO</a></li>
+            <li><a href="#">Marketing</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </section>
+  </body>
+</html>

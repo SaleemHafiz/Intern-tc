@@ -1,0 +1,24 @@
+/* Element selector */
+p {
+  color: red;
+}
+
+/* Class selector */
+.test {
+  color: green;
+}
+
+/* ID selector */
+#demo {
+  color: blue;
+}
+
+/* Higher specificity selector */
+p#demo {
+  color: orange;
+}
+
+/* ID selector for inline example */
+#demo2 {
+  color: purple;
+}

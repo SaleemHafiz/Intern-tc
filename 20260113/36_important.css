@@ -1,0 +1,29 @@
+/* !important overrides all other rules */
+p {
+  background-color: yellow !important;
+}
+
+/* ID selector without !important */
+#myid {
+  background-color: blue;
+}
+
+/* Class selector without !important */
+.myclass {
+  background-color: gray;
+}
+
+/* Button base style */
+a.button {
+  background-color: #8c8c8c !important;
+  color: white !important;
+  padding: 5px !important;
+  border: 1px solid black !important;
+  text-decoration: none !important;
+}
+
+/* Higher specificity but ignored due to !important */
+#myDiv a {
+  background-color: yellow;
+  color: red;
+}

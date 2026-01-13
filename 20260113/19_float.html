@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Float Demonstration</title>
+    <link rel="stylesheet" href="19_float.css" />
+  </head>
+  <body>
+    <h1>CSS Float Property</h1>
+    <p class="intro">
+      This page demonstrates how floating elements affect layout, text wrapping,
+      clearing behavior, and common float-based layouts.
+    </p>
+
+    <!-- Float Right -->
+    <section class="example">
+      <h2>float: right</h2>
+      <img
+        src="https://imgs.search.brave.com/TsvAaNhUNqCpQCQb_irlm0MN3bAd1bBQ2icIelCH6G8/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS12/ZWN0b3IvY3Jvd2Qt/YmVoYXZpb3JzLW1l/YXN1cmluZy1zb2Np/YWwtc2FtcGxpbmct/NjAwdy02ODkwMjMz/NjkuanBn"
+        class="img-right"
+        alt="Pineapple"
+      />
+      <p>
+        This image is floated to the right. The surrounding text wraps naturally
+        around it, adjusting as the screen size changes.
+      </p>
+    </section>
+
+    <!-- Float Left -->
+    <section class="example">
+      <h2>float: left</h2>
+      <img
+        src="https://imgs.search.brave.com/TsvAaNhUNqCpQCQb_irlm0MN3bAd1bBQ2icIelCH6G8/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS12/ZWN0b3IvY3Jvd2Qt/YmVoYXZpb3JzLW1l/YXN1cmluZy1zb2Np/YWwtc2FtcGxpbmct/NjAwdy02ODkwMjMz/NjkuanBn"
+        class="img-left"
+        alt="Pineapple"
+      />
+      <p>
+        Here the image floats to the left, allowing text to flow on the right
+        side. This technique is commonly used for articles and blog layouts.
+      </p>
+    </section>
+
+    <!-- Float None -->
+    <section class="example">
+      <h2>float: none (default)</h2>
+      <img
+        src="https://imgs.search.brave.com/TsvAaNhUNqCpQCQb_irlm0MN3bAd1bBQ2icIelCH6G8/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS12/ZWN0b3IvY3Jvd2Qt/YmVoYXZpb3JzLW1l/YXN1cmluZy1zb2Np/YWwtc2FtcGxpbmct/NjAwdy02ODkwMjMz/NjkuanBn"
+        class="img-none"
+        alt="Pineapple"
+      />
+      <p>
+        With no floating applied, the image stays in the normal document flow.
+      </p>
+    </section>
+
+    <!-- Clear Property -->
+    <section class="example">
+      <h2>clear property</h2>
+      <div class="float-box left">Floating Box</div>
+      <div class="clear-box">
+        This box uses <strong>clear: left</strong> and is pushed below the
+        floated element.
+      </div>
+    </section>
+
+    <!-- Clearfix -->
+    <section class="example">
+      <h2>clearfix hack</h2>
+      <div class="clearfix container">
+        <div class="float-item">Item 1</div>
+        <div class="float-item">Item 2</div>
+      </div>
+      <p class="note">
+        The parent container expands correctly because of the clearfix
+        technique.
+      </p>
+    </section>
+
+    <!-- Floating boxes -->
+    <section class="example">
+      <h2>Floating elements next to each other</h2>
+      <div class="column red">Box 1</div>
+      <div class="column yellow">Box 2</div>
+      <div class="column green">Box 3</div>
+    </section>
+
+    <!-- Navigation Menu -->
+    <nav class="menu clearfix">
+      <a href="#">Home</a>
+      <a href="#">News</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
+    </nav>
+  </body>
+</html>

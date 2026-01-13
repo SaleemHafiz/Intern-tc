@@ -1,0 +1,60 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+}
+
+/* 1. Image opacity */
+.opacity-02 {
+  opacity: 0.2;
+}
+
+.opacity-05 {
+  opacity: 0.5;
+}
+
+.opacity-10 {
+  opacity: 1.0;
+}
+
+/* 2. Hover opacity */
+.hover-opacity {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.hover-opacity:hover {
+  opacity: 1.0;
+}
+
+/* 3. Transparent Boxes (element opacity) */
+.opacity-box {
+  width: 300px;
+  padding: 20px;
+  background-color: #06d6a0;
+  color: white;
+  opacity: 0.5; /* affects child text */
+  margin-bottom: 10px;
+}
+
+/* 4. Background-color transparency (RGBA) */
+.rgba-box {
+  width: 300px;
+  padding: 20px;
+  background-color: rgba(255, 165, 0, 0.4); /* orange with 40% opacity */
+  color: black; /* text remains fully visible */
+  border: 1px solid #333;
+}
+
+img {
+    width: 300px;
+}

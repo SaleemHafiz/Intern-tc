@@ -1,0 +1,110 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+}
+
+/* 1. Links pseudo-classes */
+a:link {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #00aa00;
+}
+
+a:hover {
+  color: #ff00ff;
+}
+
+a:active {
+  color: #0000ff;
+}
+
+/* 4. Class + pseudo-class */
+a.highlight:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+/* 2. Hover on div */
+.hover-box {
+  width: 200px;
+  height: 80px;
+  background-color: #ffd166;
+  text-align: center;
+  line-height: 80px;
+  margin-bottom: 10px;
+  border: 2px solid #333;
+}
+
+.hover-box:hover {
+  background-color: #06d6a0;
+  color: white;
+}
+
+/* 3. Focus on input */
+.input-focus {
+  padding: 10px;
+  border: 2px solid #333;
+  width: 250px;
+}
+
+.input-focus:focus {
+  background-color: #ffff99;
+  border-color: #ef476f;
+  outline: none;
+}
+
+/* 5. Tooltip hover */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  background-color: #118ab2;
+  color: white;
+  cursor: pointer;
+}
+
+.tooltip-text {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  padding: 10px;
+  background-color: #ffd166;
+  color: #333;
+  border: 1px solid #333;
+  white-space: nowrap;
+}
+
+.tooltip:hover .tooltip-text {
+  display: block;
+}
+
+/* 6. First-child */
+.first-child-demo p:first-child {
+  color: blue;
+  font-weight: bold;
+}
+
+/* 7. Lang pseudo-class */
+q:lang(no) {
+  quotes: "«" "»";
+  color: #ef476f;
+}
+
+q:lang(en) {
+  quotes: "“" "”";
+  color: #06d6a0;
+}

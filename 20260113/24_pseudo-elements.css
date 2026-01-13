@@ -1,0 +1,66 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+}
+
+/* 1. ::first-line */
+.first-line-demo::first-line {
+  color: #ef476f;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+/* 2. ::first-letter */
+.first-letter-demo::first-letter {
+  color: #06d6a0;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+/* 3. ::before and ::after */
+.before-demo::before {
+  content: "😊 ";
+}
+
+.after-demo::after {
+  content: " 🎉";
+}
+
+/* 4. ::marker */
+li::marker {
+  color: #ffd166;
+  font-size: 1.5em;
+}
+
+/* 5. ::selection */
+.selection-demo::selection {
+  color: red;
+  background-color: yellow;
+}
+
+/* 6. ::backdrop */
+dialog::backdrop {
+  background-color: rgba(102, 204, 255, 0.3);
+}
+
+/* 7. Combined pseudo-elements */
+.combined::first-letter {
+  color: red;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.combined::first-line {
+  color: blue;
+  font-variant: small-caps;
+}

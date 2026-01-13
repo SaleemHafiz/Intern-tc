@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.block-box {
+  display: block;
+  background: lightblue;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.inline-box {
+  display: inline;
+  background: pink;
+  padding: 5px;
+}
+
+.inline-block-box {
+  display: inline-block;
+  width: 120px;
+  height: 60px;
+  background: lightgreen;
+  text-align: center;
+  line-height: 60px;
+  margin: 5px;
+}
+
+#hiddenBox {
+  margin-top: 10px;
+  padding: 10px;
+  background: orange;
+}
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.flex-container div {
+  background: #ddd;
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.grid-container div {
+  background: #cfc;
+  padding: 10px;
+  text-align: center;
+}
+
+.hidden-text {
+  visibility: hidden;
+  background: yellow;
+  padding: 10px;
+}

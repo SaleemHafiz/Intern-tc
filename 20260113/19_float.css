@@ -1,0 +1,120 @@
+/* General styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f5f7fa;
+  line-height: 1.6;
+}
+
+.intro {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.example {
+  margin-bottom: 40px;
+}
+
+/* Image float examples */
+img {
+  margin: 10px;
+  width: 42px;
+}
+
+.img-right {
+  float: right;
+}
+
+.img-left {
+  float: left;
+}
+
+.img-none {
+  float: none;
+  display: block;
+}
+
+/* Clear property */
+.float-box {
+  width: 120px;
+  padding: 15px;
+  background: #90dbf4;
+}
+
+.left {
+  float: left;
+}
+
+.clear-box {
+  clear: left;
+  background: #ffd166;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+/* Clearfix hack */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  background: #e0e0e0;
+  padding: 10px;
+}
+
+.float-item {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  background: #cdb4db;
+}
+
+/* Floating columns */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  color: #000;
+  text-align: center;
+}
+
+.red {
+  background: #ef476f;
+}
+
+.yellow {
+  background: #ffd166;
+}
+
+.green {
+  background: #06d6a0;
+}
+
+/* Navigation menu */
+.menu {
+  margin-top: 50px;
+  background: #333;
+}
+
+.menu a {
+  float: left;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background: #555;
+}
+
+/* Notes */
+.note {
+  font-size: 14px;
+  color: #444;
+}

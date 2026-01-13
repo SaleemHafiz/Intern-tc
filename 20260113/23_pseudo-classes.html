@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Pseudo-classes Demo</title>
+    <link rel="stylesheet" href="23_pseudo-classes.css" />
+  </head>
+  <body>
+    <h1>CSS Pseudo-classes</h1>
+    <p class="intro">
+      Pseudo-classes define styles for elements in a special state or position.
+    </p>
+
+    <!-- 1. Links pseudo-classes -->
+    <section>
+      <h2>Link States (:link, :visited, :hover, :active)</h2>
+      <a href="#" class="link-demo">Unvisited Link</a><br />
+      <a href="https://example.com" class="link-demo">Visited Link</a>
+    </section>
+
+    <!-- 2. Hover on div -->
+    <section>
+      <h2>:hover on div</h2>
+      <div class="hover-box">Hover over me</div>
+    </section>
+
+    <!-- 3. Focus on input -->
+    <section>
+      <h2>:focus on input</h2>
+      <input type="text" placeholder="Click to focus" class="input-focus" />
+    </section>
+
+    <!-- 4. Class + pseudo-class -->
+    <section>
+      <h2>Class with :hover</h2>
+      <a href="#" class="highlight">Hover me</a>
+    </section>
+
+    <!-- 5. Tooltip hover -->
+    <section>
+      <h2>Tooltip hover</h2>
+      <div class="tooltip">
+        Hover here
+        <p class="tooltip-text">I appear on hover!</p>
+      </div>
+    </section>
+
+    <!-- 6. First-child -->
+    <section>
+      <h2>:first-child</h2>
+      <div class="first-child-demo">
+        <p>First child paragraph (blue)</p>
+        <p>Second paragraph (default)</p>
+      </div>
+      <p>Outside container first-child (not affected)</p>
+    </section>
+
+    <!-- 7. Lang pseudo-class -->
+    <section>
+      <h2>:lang()</h2>
+      <p>
+        English quote: <q lang="en">This is English</q><br />
+        Norwegian quote: <q lang="no">Dette er norsk</q>
+      </p>
+    </section>
+  </body>
+</html>

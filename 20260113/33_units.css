@@ -1,0 +1,57 @@
+/* Root font size */
+html {
+  font-size: 16px;
+}
+
+/* Absolute units using px */
+.absolute h1 {
+  font-size: 40px;
+}
+
+.absolute h2 {
+  font-size: 30px;
+}
+
+.absolute p {
+  font-size: 16px;
+}
+
+/* Parent font size for em example */
+.relative-em {
+  font-size: 16px;
+}
+
+/* em units relative to parent */
+.relative-em h1 {
+  font-size: 2.5em;
+}
+
+.relative-em h2 {
+  font-size: 1.875em;
+}
+
+.relative-em p {
+  font-size: 1em;
+}
+
+/* rem units relative to html */
+.relative-rem h1 {
+  font-size: 2.5rem;
+}
+
+.relative-rem h2 {
+  font-size: 1.875rem;
+}
+
+.relative-rem p {
+  font-size: 1rem;
+}
+
+/* Viewport-based sizing */
+.viewport .box {
+  width: 30vw;
+  height: 20vh;
+  background-color: lightblue;
+  line-height: 20vh;
+  text-align: center;
+}
