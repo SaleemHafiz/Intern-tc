@@ -1,0 +1,343 @@
+/* Root variables */
+:root {
+  --main: #3498db;
+}
+
+/* Universal selector */
+* {
+  box-sizing: border-box;
+}
+
+/* Element selector */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* ID selector */
+#selectors {
+  background: hsl(200, 50%, 90%);
+}
+
+/* Class selector */
+.box {
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Grouping selector */
+h1,
+p {
+  color: #333;
+}
+
+/* Descendant selector */
+section p {
+  font-size: 14px;
+}
+
+/* Child selector */
+nav > ul {
+  display: flex;
+}
+
+/* Adjacent sibling */
+p + span {
+  color: red;
+}
+
+/* General sibling */
+p ~ span {
+  font-style: italic;
+}
+
+/* Attribute selector */
+[data-role="demo"] {
+  border: 2px solid var(--main);
+}
+
+/* Multiple declarations */
+.special {
+  border-radius: 10px;
+  opacity: 0.95;
+}
+
+/* Colors */
+.box {
+  background: rgba(52, 152, 219, 0.2);
+}
+
+/* Background shorthand */
+body {
+  background: #fff url() no-repeat center / cover fixed;
+}
+
+/* Borders */
+.box {
+  border: 3px dashed #333;
+}
+
+/* Margins */
+.box {
+  margin: 20px auto;
+}
+
+/* Padding */
+.box {
+  padding: 10px 20px;
+}
+
+/* Width & height */
+.img-demo {
+  width: 200px;
+  height: 200px;
+}
+
+/* Min / max */
+.img-demo {
+  max-width: 100%;
+}
+
+/* Outline */
+input {
+  outline: 2px solid blue;
+  outline-offset: 2px;
+}
+
+/* Text */
+.text-demo p {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Fonts */
+.text-demo {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Links */
+a:link {
+  color: blue;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
+}
+
+/* Lists */
+.h-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+/* Display */
+.img-demo {
+  display: block;
+}
+
+/* Position */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #222;
+}
+
+/* Z-index */
+.navbar {
+  z-index: 10;
+}
+
+/* Overflow */
+.table-wrap {
+  overflow-x: auto;
+}
+
+/* Float & clear */
+.right {
+  float: right;
+}
+
+/* Navbar */
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navbar a {
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: #444;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Images */
+.img-demo {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Filters */
+.img-demo {
+  filter: grayscale(50%);
+}
+
+/* Forms */
+input,
+select {
+  padding: 5px;
+}
+
+/* Buttons */
+.btn {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/* UI */
+textarea {
+  resize: both;
+}
+
+/* Counters */
+body {
+  counter-reset: section;
+}
+
+/* Units */
+.box {
+  padding: 2em;
+}
+
+/* Inheritance */
+.special {
+  color: inherit;
+}
+
+/* Specificity */
+.box.special {
+  background: yellow !important;
+}
+
+/* Math functions */
+.box {
+  width: calc(100% - 40px);
+}
+
+/* @property */
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+/* Transform */
+.box {
+  transform: rotate(1deg);
+  transform-origin: center;
+}
+
+/* 3D */
+.box {
+  transform: rotateY(5deg);
+  perspective: 500px;
+}
+
+/* Transition */
+.box {
+  transition: background 0.5s ease;
+}
+
+/* Animation */
+@keyframes pulse {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+.box {
+  animation: pulse 2s infinite alternate;
+}
+
+/* Tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tip {
+  display: none;
+  position: absolute;
+  background: black;
+  color: white;
+}
+.tooltip:hover .tip {
+  display: block;
+}
+
+/* Flexbox */
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex div {
+  flex: 1;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* Media query */
+@media (max-width: 600px) {
+  .flex {
+    flex-direction: column;
+  }
+}
+
+/* @supports */
+@supports (display: grid) {
+  .grid {
+    background: #eee;
+  }
+}
