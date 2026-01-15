@@ -1,0 +1,72 @@
+/* Base styling for all color boxes */
+div {
+  margin: 15px 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+  width: 220px;
+}
+
+/* RGBA examples */
+
+/* red with 20% opacity */
+.rgba.red {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+/* green with 40% opacity */
+.rgba.green {
+  background-color: rgba(0, 255, 0, 0.4);
+}
+
+/* blue with 60% opacity */
+.rgba.blue {
+  background-color: rgba(0, 0, 255, 0.6);
+}
+
+/* purple with 80% opacity */
+.rgba.purple {
+  background-color: rgba(128, 0, 128, 0.8);
+}
+
+/* HSLA examples */
+
+/* dark green with opacity */
+.hsla.dark-green {
+  background-color: hsla(120, 100%, 25%, 0.3);
+}
+
+/* light green with opacity */
+.hsla.light-green {
+  background-color: hsla(120, 100%, 75%, 0.3);
+}
+
+/* bright green with opacity */
+.hsla.bright-green {
+  background-color: hsla(120, 100%, 50%, 0.3);
+}
+
+/* pastel green with opacity */
+.hsla.pastel-green {
+  background-color: hsla(120, 60%, 70%, 0.3);
+}
+
+/* Opacity applied to entire element */
+
+/* red element partially transparent */
+.opacity.red {
+  background-color: rgb(255, 0, 0);
+  opacity: 0.6;
+}
+
+/* green element partially transparent */
+.opacity.green {
+  background-color: rgb(0, 255, 0);
+  opacity: 0.6;
+}
+
+/* blue element partially transparent */
+.opacity.blue {
+  background-color: rgb(0, 0, 255);
+  opacity: 0.6;
+}

@@ -1,0 +1,37 @@
+/* Shared styling for all border image examples */
+.border-box {
+  width: 260px;
+  padding: 18px;
+  margin: 15px 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border: 12px solid transparent; 
+  /* Border is required for border-image */
+}
+
+/* Border image with repeating tiles */
+.round-repeat {
+  border-image-source: url(https://images.pexels.com/photos/35204301/pexels-photo-35204301.jpeg);
+  border-image-slice: 20;
+  border-image-repeat: round;
+}
+
+/* Border image stretched instead of repeated */
+.stretch-repeat {
+  border-image: url(https://images.pexels.com/photos/35204301/pexels-photo-35204301.jpeg) 30 stretch;
+}
+
+/* Border image sliced using pixel value */
+.slice-pixels {
+  border-image: url(https://images.pexels.com/photos/35204301/pexels-photo-35204301.jpeg) 50 round;
+}
+
+/* Border image sliced using smaller percentage */
+.slice-percent-small {
+  border-image: url(https://images.pexels.com/photos/35204301/pexels-photo-35204301.jpeg) 20% round;
+}
+
+/* Border image sliced using larger percentage */
+.slice-percent-large {
+  border-image: url(https://images.pexels.com/photos/35204301/pexels-photo-35204301.jpeg) 30% round;
+}

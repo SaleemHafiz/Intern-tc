@@ -1,0 +1,79 @@
+/* Base styling shared by most boxes */
+.box {
+    width: 220px;
+    height: 140px;
+    padding: 20px;
+    margin: 15px 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Rounded corners using background color */
+.bg-round {
+    background-color: #5a9f2e;
+    border-radius: 20px;
+}
+
+/* Rounded corners using border only */
+.border-round {
+    color: #333;
+    border: 3px solid #5a9f2e;
+    border-radius: 20px;
+}
+
+/* Rounded corners with background image */
+.image-round {
+    background-image: repeating-linear-gradient(45deg, #6dbf6d, #6dbf6d 10px, #4a8f4a 10px, #4a8f4a 20px);
+    border-radius: 20px;
+}
+
+/* Four individual corner values */
+.four-corners {
+    background-color: #04aa6d;
+    border-radius: 10px 40px 25px 5px;
+}
+
+/* Three corner values */
+.three-corners {
+    background-color: #04aa6d;
+    border-radius: 10px 40px 25px;
+}
+
+/* Two corner values */
+.two-corners {
+    background-color: #04aa6d;
+    border-radius: 10px 40px;
+}
+
+/* One value applied to all corners */
+.one-corner {
+    background-color: #04aa6d;
+    border-radius: 15px;
+}
+
+/* Elliptical horizontal and vertical radius */
+.ellipse-one {
+    background-color: #04aa6d;
+    border-radius: 70px / 30px;
+}
+
+/* Another elliptical variation */
+.ellipse-two {
+    background-color: #04aa6d;
+    border-radius: 20px / 60px;
+}
+
+/* Oval shape using percentage */
+.oval-shape {
+    background-color: #04aa6d;
+    border-radius: 50%;
+}
+
+/* Perfect circle requires equal width and height */
+.circle-shape {
+    width: 200px;
+    height: 200px;
+    background-color: #04aa6d;
+    border-radius: 50%;
+    margin: 15px 0;
+}

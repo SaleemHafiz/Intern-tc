@@ -1,0 +1,125 @@
+/* Base page background covering full screen */
+html {
+  background: url(img_man.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+/* Shared box styling */
+div {
+  margin: 20px 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Multiple background images stacked */
+.multi-bg {
+  background-image: url(../assets/flower.png), url(../assets/paper.PNG);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  border: 1px solid #333;
+}
+
+/* Background size using pixels */
+.size-pixels {
+  height: 120px;
+  background-image: url(../assets/flower.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 120px 80px;
+  border: 1px solid black;
+}
+
+/* background-size contain example */
+.size-contain {
+  height: 120px;
+  background: url(../assets/flower.png) no-repeat;
+  background-size: contain;
+  border: 1px solid black;
+}
+
+/* background-size cover example */
+.size-cover {
+  height: 120px;
+  background: url(../assets/flower.png) no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+/* background-size auto example */
+.size-auto {
+  height: 120px;
+  background: url(../assets/flower.png) no-repeat;
+  background-size: auto;
+  border: 1px solid black;
+}
+
+/* Multiple background sizes for different images */
+.multi-size {
+  height: 150px;
+  background-image: url(../assets/tree.png), url(../assets/flower.png), url(../assets/paper.PNG);
+  background-position: left top, right bottom, left top;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-size: contain, 140px, auto;
+  border: 1px solid black;
+}
+
+/* Hero image layout */
+.hero {
+  height: 300px;
+  background: url(img_man.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+/* Hero text positioning */
+.hero-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
+/* Background origin shared style */
+.origin {
+  border: 2px solid black;
+  padding: 30px;
+  background-image: url(../assets/flower.png);
+  background-repeat: no-repeat;
+}
+
+/* Origin from padding edge */
+.padding-origin {
+  background-origin: padding-box;
+}
+
+/* Origin from border edge */
+.border-origin {
+  background-origin: border-box;
+}
+
+/* Origin from content edge */
+.content-origin {
+  background-origin: content-box;
+}
+
+/* Background clip shared style */
+.clip {
+  border: 5px dotted black;
+  padding: 30px;
+  background-image: url(../assets/paper.PNG);
+}
+
+/* Clip behind border */
+.border-clip {
+  background-clip: border-box;
+}
+
+/* Clip inside padding */
+.padding-clip {
+  background-clip: padding-box;
+}
+
+/* Clip inside content only */
+.content-clip {
+  background-clip: content-box;
+}

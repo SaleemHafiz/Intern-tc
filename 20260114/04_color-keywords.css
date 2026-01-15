@@ -1,0 +1,64 @@
+/* Transparent background example */
+
+/* body has a background image */
+body {
+  background-image: url("paper.gif");
+}
+
+/* div background is transparent */
+.transparent-box {
+  background-color: transparent;
+  padding: 20px;
+  border: 2px solid black;
+  width: 250px;
+  margin: 15px 0;
+}
+
+/* Currentcolor keyword examples */
+
+/* border color uses current text color */
+.currentcolor-border {
+  color: blue;
+  border: 5px solid currentcolor;
+  padding: 20px;
+  width: 250px;
+  margin: 15px 0;
+}
+
+/* background color uses current text color */
+.currentcolor-background {
+  color: purple;
+  background-color: currentcolor;
+  padding: 20px;
+  width: 250px;
+  margin: 15px 0;
+  color: white;
+}
+
+/* border and shadow use current text color */
+.currentcolor-shadow {
+  color: green;
+  border: 5px solid currentcolor;
+  box-shadow: 0 0 15px currentcolor;
+  padding: 20px;
+  width: 250px;
+  margin: 15px 0;
+}
+
+/* Inherit keyword example */
+
+/* parent element has a red border */
+.parent-box {
+  border: 2px solid red;
+  padding: 20px;
+  width: 250px;
+  margin: 15px 0;
+}
+
+/* child inherits border from parent */
+.child-inherit {
+  border: inherit;
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+}
