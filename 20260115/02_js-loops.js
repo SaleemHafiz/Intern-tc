@@ -1,18 +1,18 @@
-// For loop
-for (let i = 1; i <= 5; i++) {
-  console.log("For loop count:", i);
+// for loop - known number of iterations
+for (let i = 0; i < 3; i++) {
+  console.log("for loop:", i);
 }
 
-// While loop
-let j = 1;
-while (j <= 5) {
-  console.log("While loop count:", j);
+// while loop - runs while condition is true
+let j = 0;
+while (j < 3) {
+  console.log("while loop:", j);
   j++;
 }
 
-// Do-while loop
-let k = 1;
+// do...while loop - executes at least once
+let k = 0;
 do {
-  console.log("Do-while loop count:", k);
+  console.log("do while loop:", k);
   k++;
-} while (k <= 5);
+} while (k < 3);
